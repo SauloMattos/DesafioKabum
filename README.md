@@ -28,3 +28,8 @@ Segue abaixo os passos de inicialização desse projeto proposto pela Kabum! Em 
 - Dentro do sistema você poderá ver todos os cadastros já criados, editá-los ou exlcui-los, também adicionei uma barra de pesquisa utilizando o JS para dar uma diferenciada.
 - Ao clicar no "lápis" ao lado do registro, você é enviado a tela de alterações, onde abrirá o formulário de cadastro com todas as informações preenchidas e você pode alterar o que quiser, e depois de alterar, é redirecionado a pagina do sistema com as informações já alteradas.
 - Ao clicar na "lixeira" o registro é instantaneamente apagado da tabela de cadastro para sempre (cuidado).
+- Agora é só utilizar/modificar da maneira que quiser! Obrigado pela atenção.
+
+*Saulo Matos* 
+
+*Não se pode julgar um homem pelos seus erros do passado. Ele deve ser julgado pela forma como os supera* - Bioshock Infinite
