@@ -47,7 +47,7 @@
     <div class="box">
         <form action="saveEdit.php" method="POST">
             <fieldset>
-                <legend><b>Formulário de Clientes</b></legend>
+                <legend><b>Editar cadastro Kabum</b></legend>
                 <br>
                 <div class="input_box">
                     <input type="text" name="nome" id="nome" class="input_user" value="<?php echo $nome ?>" required>
