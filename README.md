@@ -10,7 +10,7 @@ Segue abaixo os passos de inicialização desse projeto proposto pela Kabum! Em 
 
     *Segundo* vamos criar a tabela onde vão ser inclusos todos os cadastros: 
 
-    CREATE TABLE `desafio_kabum2`.`cadastros` (
+    CREATE TABLE `desafio_kabum`.`cadastros` (
         `id` INT NOT NULL AUTO_INCREMENT,
         `nome` VARCHAR(45) NOT NULL,
         `usuario` VARCHAR(45) NOT NULL,
