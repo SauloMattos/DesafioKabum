@@ -10,8 +10,8 @@
     <a href="../index.php">Voltar</a>
     <div class="tela_login">
         <h1>Login</h1>
-        <form action="teste_login.php" method="POST">
-            <input type="text" name="email" placeholder="Email" class="input_login">
+        <form action="../data/testeLogin.php" method="POST">
+            <input type="text" name="usuario" placeholder="Usuario" class="input_login">
             <br><br>
             <input type="password" name="senha" placeholder="Senha" class="input_login">
             <br><br>

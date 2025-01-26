@@ -2,20 +2,19 @@
 
     if(isset($_POST['submit'])){
         
-        include_once('config.php');
+        include_once('../data/config.php');
 
         $nome = $_POST['nome'];
-        $email = $_POST['email'];
+        $usuario = $_POST['usuario'];
         $senha = $_POST['senha'];
-        $telefone = $_POST['telefone'];
-        $sexo = $_POST['genero'];
         $data_nasc = $_POST['data_nasc'];
-        $cidade = $_POST['cidade'];
-        $estado = $_POST['estado'];
+        $cpf = $_POST['cpf'];
+        $rg = $_POST['rg'];
+        $telefone = $_POST['telefone'];
         $endereco = $_POST['endereco'];
 
-        $result = mysqli_query($conexao, "INSERT INTO usuarios(nome, email, senha, telefone, sexo, data_nasc, cidade, estado, endereco) 
-        VALUES ('$nome', '$email', '$senha', '$telefone', '$sexo', '$data_nasc', '$cidade', '$estado', '$endereco')");
+        $result = mysqli_query($conexao, "INSERT INTO cadastros(nome, usuario, senha, data_nasc, cpf, rg, telefone, endereco) 
+        VALUES ('$nome', '$usuario', '$senha', '$data_nasc', '$cpf', '$rg', '$telefone', '$endereco')");
 
         header('Location: login.php');
 
@@ -31,6 +30,7 @@
     <title>Kabum! Formulario</title>
 
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
 <body>
     <a href="../index.php">Voltar</a>
@@ -42,6 +42,11 @@
                 <div class="input_box">
                     <input type="text" name="nome" id="nome" class="input_user" required>
                     <label for="nome" class="label_input">Nome Completo</label>
+                </div>
+                <br><br>
+                <div class="input_box">
+                    <input type="text" name="usuario" id="usuario" class="input_user" required>
+                    <label for="usuario" class="label_input">Usuario</label>
                 </div>
                 <br><br>
                 <div class="input_box">
@@ -64,7 +69,7 @@
                 <br><br>
                 <div class="input_box">
                     <input type="text" name="telefone" id="telefone" class="input_user" required>
-                    <label for="telefone" class="label_input">Telefone</label>
+                    <label for="telefone" class="label_input" >Telefone</label>
                 </div>
                 <br><br>
                 <div class="input_box">
