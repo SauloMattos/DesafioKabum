@@ -2,7 +2,7 @@
 
     $dbHost ='localhost';
     $dbUsername = 'root';
-    $dbPassword = '';
+    $dbPassword = 'Xtzj8503b@';
     $dbName = 'desafio_kabum';
 
     $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
